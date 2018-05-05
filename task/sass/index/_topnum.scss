@@ -1,0 +1,35 @@
+#top-num {
+	background: #f3f3f9;
+	height: 60px;
+
+	.container {
+		> div {
+			box-sizing: border-box;
+			padding: 18px 0px;
+			float: left;
+			margin-right: 90px;
+			color: #363647;
+			font-family: $fontfamily;
+
+			i {
+				font-size: 1.2em;
+				margin-right: 10px;
+			}
+			&:nth-child(4){
+				height:100%;
+				width:9.5%;
+				float:right;
+				color:white;
+				margin-right:0px;
+				text-align:center;
+				background:$colorred;
+				
+				i{
+					margin-right:7px;
+					font-size:1.3em;
+				}
+
+			}
+		}
+	}
+}
